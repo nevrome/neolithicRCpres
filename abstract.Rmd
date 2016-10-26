@@ -1,0 +1,28 @@
+---
+output: word_document
+---
+
+# neolithicRC: *Eine Suchmaschine für Radiokohlenstoffdatierungen*
+
+*Clemens Schmid (Kiel), Dirk Seidensticker (Tübingen)*
+
+## Abstract
+
+Der Aufschwung der Open-Data-Bewegung in den vergangenen Jahren führte zu einer Vielzahl von individuellen Daten-Publikationen und öffentlichen Datenbanken mit wissenschaftlichen Rohdaten. Diese Datensätze bieten für sich betrachtet ein wichtiges Archiv für zukünftige Forschungsfragen. Ungleich mehr Potential liefert jedoch die Verschneidung dieser einzelnen Datensätze.
+
+NeolithicRC hat sich zum Ziel gesetzt, eine Zusammenführung von unter Open-Data-Richtlinien veröffentlichten Datenbanken mit Radiokohlenstoffdatierungen zu liefern und diese in einer Suchmaske sowie einem WebGIS recherchierbar zu mache.  Die Daten sind dadurch in ihrem inhaltlichen Kontext durchsuchbar und können visuell erfasst werden.
+
+Radiokohlenstoffdatierungen bilden innerhalb der Archäologien eine der Grundlagen für die Erarbeitung von Chronologien, einer der fundamentalen Voraussetzung aller historischen Disziplinen. Sie bilden daher auch die Grundlage vielfältiger Modellbildungen, sei es nun um die 'Neolithisierung' Europas oder die 'Bantu-Expansion' im subsaharischen Afrika zu beschreiben. Grundlage des sich aus diesen Modellen entwickelnden wissenschaftlichen Diskurses sind nun leider nur zu selten die zugrundelegenden Algorithmen.  All zu häufig geben Umfang oder Zusammensetzung des zugrundeliegenden Datensatzes Grund zu Kritik. Eine Evaluierung von veröffentlichten Daten scheitert fast immer an fehlenden Schnittstellen. Gegenwärtig speist sich der Datenbestand in neolithiRC aus vier  Datenbanken (CALPAL, RADON, EUROEVOL, aDRAC) mit zusammen fast 60.000 Einträgen, die neben Europa und dem Vorderen Orient auch das subsaharische Afrika abdecken.
+
+NeolithicRC zeichnet sich durch einen modularen Aufbau aus, der es uns ermöglicht, individuelle Anpassungen für zu integrierende Datensätze relativ einfach umzusetzen. Da die gesamte Entwicklung über git/github erfolgt, besteht neben einer uneingeschränkten Dokumentation auch für Dritte die Möglichkeit des Beitrages.
+
+Die Anwendung wird auf den Servern des eScience-Center der Eberhard Karls Universität Tübingen bereitgestellt: [www.neolithicrc.de](http://www.neolithicrc.de/)
+
+## Agenda
+
+* Seidensticker (ca. 1/3 der Zeit): Einführung und Beispiele von 'Außerhalb'
+  * OpenData & Science 2.0
+    * CARD: http://www.canadianarchaeology.ca/
+  * aDrac () als Beispiel für einen Open-Access veröffentlichten Datensatz (GitHub)
+* Schmidt (ca. 2/3 der Zeit): neolithicRC & Ausblick
+  * inkl. 2-3 min Demo
