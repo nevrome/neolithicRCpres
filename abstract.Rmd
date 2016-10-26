@@ -8,21 +8,25 @@ output: word_document
 
 ## Abstract
 
-Der Aufschwung der Open-Data-Bewegung in den vergangenen Jahren führte zu einer Vielzahl von individuellen Daten-Publikationen und öffentlichen Datenbanken mit wissenschaftlichen Rohdaten. Diese Datensätze bieten für sich betrachtet ein wichtiges Archiv für zukünftige Forschungsfragen. Ungleich mehr Potential liefert jedoch die Verschneidung dieser einzelnen Datensätze.
+Der Aufschwung der Open-Data-Bewegung in den vergangenen Jahren führte zu einer Vielzahl von individuellen Daten-Publikationen und öffentlichen Datenbanken mit wissenschaftlichen Rohdaten. Diese Datensätze bieten für sich betrachtet ein wichtiges Archiv für zukünftige Forschungsfragen. Ungleich mehr Potential liefert jedoch die Verschneidung der einzelnen Datensätze.
 
-NeolithicRC hat sich zum Ziel gesetzt, eine Zusammenführung von unter Open-Data-Richtlinien veröffentlichten Datenbanken mit Radiokohlenstoffdatierungen zu liefern und diese in einer Suchmaske sowie einem WebGIS recherchierbar zu mache.  Die Daten sind dadurch in ihrem inhaltlichen Kontext durchsuchbar und können visuell erfasst werden.
+neolithicRC hat sich zum Ziel gesetzt, verschiedene unter Open-Data-Richtlinien veröffentlichte Datenbanken mit Radiokohlenstoffdatierungen zusammenzuführen und diese in einer Suchmaske sowie einem WebGIS recherchierbar zu machen. Die Daten sind dadurch in ihrem inhaltlichen Kontext durchsuchbar und können visuell erfasst werden.
 
-Radiokohlenstoffdatierungen bilden innerhalb der Archäologien eine der Grundlagen für die Erarbeitung von Chronologien, einer der fundamentalen Voraussetzung aller historischen Disziplinen. Sie bilden daher auch die Grundlage vielfältiger Modellbildungen, sei es nun um die 'Neolithisierung' Europas oder die 'Bantu-Expansion' im subsaharischen Afrika zu beschreiben. Grundlage des sich aus diesen Modellen entwickelnden wissenschaftlichen Diskurses sind nun leider nur zu selten die zugrundelegenden Algorithmen.  All zu häufig geben Umfang oder Zusammensetzung des zugrundeliegenden Datensatzes Grund zu Kritik. Eine Evaluierung von veröffentlichten Daten scheitert fast immer an fehlenden Schnittstellen. Gegenwärtig speist sich der Datenbestand in neolithiRC aus vier  Datenbanken (CALPAL, RADON, EUROEVOL, aDRAC) mit zusammen fast 60.000 Einträgen, die neben Europa und dem Vorderen Orient auch das subsaharische Afrika abdecken.
+Radiokohlenstoffdatierungen bilden innerhalb der Archäologien eine der wesentlichen Grundlagen für die Erfassung absoluter Chronologie, die fundamentale Voraussetzung aller historischen Disziplinen. Sie liegt vielfältigen quantitativen Modellen zugrunde, sei es nun um die 'Neolithisierung' Europas oder die 'Bantu-Expansion' im subsaharischen Afrika zu beschreiben. Die Auswahl der einzelnen Daten für ein solches Modell ist komplex und erfordert ein genaues Verständnis der archäologischen Fragestellung -- Kritik an genannten Modellen setzt meist beim Datensatz an. Um eine Diskussion über ihn führen zu können, muss der Gegenstand Datensatz allgemein zugänglich, gut kontextualisiert und weitreichend standardisiert sein. Sonst kann keine systematische Evaluation stattfinden. Es kann dabei nicht genügen, nur jene Datenauswahl zu betrachten, die letzten Endes in einem Modell verarbeitet wurde. Stattdessen ist es eben auch von Bedeutung jene Daten zu kennen, die keinen Eingang in die Untersuchung gefunden haben, da sie bewusst aussortiert oder unbewusst übersehen wurden. Eine unabhängige, ungefilterte und unkomplizierte Schnittstelle kann in beschriebenem Forschungsprozess von der Modellbildung über die Publikation bis zum fachwissenschaftlichen Diskurs nutzbringend eingebunden werden.
 
-NeolithicRC zeichnet sich durch einen modularen Aufbau aus, der es uns ermöglicht, individuelle Anpassungen für zu integrierende Datensätze relativ einfach umzusetzen. Da die gesamte Entwicklung über git/github erfolgt, besteht neben einer uneingeschränkten Dokumentation auch für Dritte die Möglichkeit des Beitrages.
+Gegenwärtig speist sich der Datenbestand in neolithicRC aus vier Datenbanken (CALPAL, RADON, EUROEVOL, aDRAC) mit zusammen fast 60.000 Einträgen, die neben Europa und dem Vorderen Orient auch das subsaharische Afrika abdecken. Eine Entfernung von Dupletten nimmt neolithicRC bewusst nicht vor, um eine Beurteilung des Potentials der einzelnen Quelldatenbanken für bestimmte Fragestellungen nicht einzuschränken. 
 
-Die Anwendung wird auf den Servern des eScience-Center der Eberhard Karls Universität Tübingen bereitgestellt: [www.neolithicrc.de](http://www.neolithicrc.de/)
+neolithicRC ist größtenteils in der Statistikprogrammiersprache R umgesetzt. Die WebGIS Applikation basiert auf dem Shiny framework. Das Projekt ist modular aufgebaut -- individuelle Anpassungen für zu integrierende Datensätze können relativ einfach umgesetzt und Datenmanipulationswerkzeuge beliebig in die Vorbereitungspipeline integriert werden. Da die gesamte Entwicklung über git/github erfolgt ([github.com/nevrome/neolithicR](https://github.com/nevrome/neolithicR)), besteht neben Dokumentation und Transparenz auch für Dritte die unmittelbare Möglichkeit mitzuwirken oder eigene Projektideen abzuleiten.
+
+Die Anwendung wird auf den Servern des eScience-Center der Eberhard Karls Universität Tübingen bereitgestellt: [www.neolithicrc.de](http://www.neolithicrc.de/)
 
 ## Agenda
 
-* Seidensticker (ca. 1/3 der Zeit): Einführung und Beispiele von 'Außerhalb'
-  * OpenData & Science 2.0
-    * CARD: http://www.canadianarchaeology.ca/
-  * aDrac () als Beispiel für einen Open-Access veröffentlichten Datensatz (GitHub)
-* Schmidt (ca. 2/3 der Zeit): neolithicRC & Ausblick
-  * inkl. 2-3 min Demo
+* Seidensticker (ca. 1/3 der Zeit): Einführung (Grundidee und Beispiele)
+    * OpenData & Science 2.0
+        * **CARD**: http://www.canadianarchaeology.ca/
+    * aDrac als Beispiel für einen Open-Access veröffentlichten Datensatz (github)
+* Schmid (ca. 2/3 der Zeit): neolithicRC
+    * Modulaufbau und Technisches
+    * WebApp Funktion + Demo
+    * Entwicklungsplattform (git und github)
