@@ -36,11 +36,22 @@ fig_caption: yes
     
 # neolithicRC
 
-## Projektkontext und Timeline
+## Projektkontext
+
+![Timeline der Entwicklung von neolithicRC](../images/smartart2.png)
+
+- **DIY Freizeit- und Übungsprojekt** 
+- Intensiver Austausch mit den Teams hinter CALPAL und RADON
+- Strukturelle Anbindung an das eScience-Center der Universität Tübingen
+- keine erweiterte Fragestellung und kein konkreter Zeitplan
 
 ## Projektkonzept
 
-### Entwicklungsumgebung (R, Shiny, git, github)
+### Entwicklungsumgebung 
+
+- **R + RStudio:** 
+- **shiny + htmlwidgets: **
+- **git + github:**
 
 ### Modulstruktur
 
