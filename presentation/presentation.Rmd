@@ -1,0 +1,101 @@
+---
+title: "neolithicRC: Eine Suchmaschine für Radiokohlenstoffdatierungen"
+author: "Dirk Seidensticker, Clemens Schmid"
+date: "11. Februar 2017"
+fontsize: 9pt
+output:
+  beamer_presentation:
+    theme: "metropolis"
+fig_caption: yes
+---
+
+```{r}
+
+```
+
+# OpenData & Science 2.0
+
+## CARD
+
+## aDrac
+
+## Interfaces
+
+![https://xkcd.com/927/ -- Randall Munroe](http://imgs.xkcd.com/comics/standards.png "xkcd: Standards")
+
+## Interfaces
+
+[//]: # (Das sind Eckpunkte, die ich gerne gesagt haben würde, die aber besser in deinen Part passen, Dirk.)
+
+- Eine allumfassendes Verwaltungs- und Präsentationsstrategie für 14C-Daten existiert nicht (mehr).
+- Daten werden in höchst unterschiedlichen Strukturen gesammelt und veröffentlicht. 
+- Die Zugänglichkeit des Gesamtbestands ist damit enorm erschwert.
+- Zwei Möglichkeiten: 
+    - Schaffung eines zentralen Systems, das von allen bedient wird (unmöglich)
+    - Zusammenziehen veröffentlichten Daten (würde vereinfacht durch einen Datenhaltungsstandard)
+    
+# neolithicRC
+
+## Projektkontext und Timeline
+
+## Projektkonzept
+
+### Entwicklungsumgebung (R, Shiny, git, github)
+
+### Modulstruktur
+
+## Modulaufbau
+
+![Modulaufbau neolithicRC](../images/smartart1.png)
+
+## Quellendatenbanken und Interfaces
+
+- **CALPAL:**
+- **RADON:**
+- **EUROEVOL:**
+- **aDRAC:**
+- weitere geplant: ...
+
+### Kerndatenelemente
+
+## Datenbereinigung
+
+### Raumdatenbewertung 
+
+### Thesauri
+
+## 14C-Kalibration
+
+```{r eval = FALSE, size = "tiny"}
+interval683 <- datestable[-outofrange, ] %>%
+  # calculate density vector
+  BchronCalibrate(
+    ages = use_series(., C14AGE),
+    ageSds = use_series(., C14STD),
+    calCurves = rep("intcal13", nrow(.))
+  ) %>% set_names(sprintf("date%i", 1:length(.))) %>%
+  # draw 1000 samples from density vector
+  sapply(
+    ., function(x){sample(x$ageGrid, size = 1000, 
+                          replace = TRUE, prob = x$densities)}
+  ) %>% 
+  # determine upper and lower border of 68% interval of 
+  # density distribution
+  apply(
+    ., 2, quantile, prob = c(afaktor, 1-afaktor)
+  ) %>% t %>% as.data.frame
+```
+
+## WebApp 
+
+# Demo
+
+## Danke
+
+|**Dirk Seidensticker**|**Clemens Schmid**|
+|------------------------------------|------------------------------------|
+||Institut für Ur- und Frühgeschichte,|
+||CAU Kiel|
+||clemens@nevrome.de|
+
+## Demo -Backup
