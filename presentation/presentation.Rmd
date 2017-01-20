@@ -1,6 +1,6 @@
 ---
 title: "neolithicRC: Eine Suchmaschine für Radiokohlenstoffdatierungen"
-author: "Dirk Seidensticker, Clemens Schmid"
+author: "Clemens Schmid, Dirk Seidensticker"
 date: "11. Februar 2017"
 fontsize: 9pt
 output:
@@ -15,9 +15,32 @@ fig_caption: yes
 
 # OpenData & Science 2.0
 
-## CARD
+## *Current situation*
 
-## aDrac
+- Bedeutung von Radiokohlenstoffdatierungen für Modellierung der Ausbreitung archäologischer Phänomene
+- Faktoren für den Diskurs:
+    - Datenbestand
+    - Algorithmus
+
+![Shennan, Downey *et al.* 2013; Russell, Silva *et al.* 2014; Jordan, Gibbs et al. 2016](../images/literature_selection.png)
+
+## *Best practice*: Archives des datations radiocarbone d'Afrique centrale
+
+* OpenData-Veröffentlichung von publizierten 14C-Datierungen aus Zentralafrika (DOI 10.5281/zenodo.61113)
+
+![GitHub-Archiv](../images/aDRAC_1_2017-01-20_13-20-55.png)
+
+## *Best practice*: Archives des datations radiocarbone d'Afrique centrale
+
+![Datensatz im CSV-Format](../images/aDRAC_2_2017-01-20_13-21-34.png)
+
+## *Best practice*: Archives des datations radiocarbone d'Afrique centrale
+
+![Beschriebung des Datensatzes](../images/aDRAC_4_2017-01-20_13-22-19.png)
+
+## *Best practice*: Archives des datations radiocarbone d'Afrique centrale
+
+![Sammlung nützlicher Skripte: Python-Skript zur Konvertierung der Daten](../images/aDRAC_5_2017-01-20_13-23-36.png)
 
 ## Interfaces
 
@@ -33,7 +56,9 @@ fig_caption: yes
 - Zwei Möglichkeiten: 
     - Schaffung eines zentralen Systems, das von allen bedient wird (unmöglich)
     - Zusammenziehen veröffentlichten Daten (würde vereinfacht durch einen Datenhaltungsstandard)
-    
+
+Zielsetzung von neolithicRC: **"Agregation, Durchsuchbarkeit und Auswertung bestehender Repositorien"**
+
 # neolithicRC
 
 ## Projektkontext
@@ -103,10 +128,10 @@ interval683 <- datestable[-outofrange, ] %>%
 
 ## Danke
 
-|**Dirk Seidensticker**|**Clemens Schmid**|
+|**Clemens Schmid**|**Dirk Seidensticker**|
 |------------------------------------|------------------------------------|
-||Institut für Ur- und Frühgeschichte,|
-||CAU Kiel|
-||clemens@nevrome.de|
+|Institut für Ur- und Frühgeschichte,||
+|CAU Kiel||
+|clemens@nevrome.de||
 
 ## Demo -Backup
