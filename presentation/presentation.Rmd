@@ -9,10 +9,6 @@ output:
 fig_caption: yes
 ---
 
-```{r}
-
-```
-
 # OpenData & Science 2.0
 
 ## *Current situation*
@@ -76,7 +72,10 @@ Zielsetzung von neolithicRC: **"Agregation, Durchsuchbarkeit und Auswertung best
 - **DIY Freizeit- und Übungsprojekt** ohne institutionelle Anbindung
 - intensiver Austausch mit den Teams hinter CALPAL und RADON
 - strukturelle Anbindung an das eScience-Center der Universität Tübingen
-- keine erweiterte Fragestellung und kein konkreter Zeitplan
+- **Warum machen wir das?**
+    - Technische Weiterentwicklung eines Werkzeugs
+    - Verstehen von Datenverarbeitungs- und Datenhaltungsproblemen
+    - Kommunizieren von zeitgemäßen Lösungsansätzen
 
 ## Projektkonzept
 
@@ -105,22 +104,25 @@ Zielsetzung von neolithicRC: **"Agregation, Durchsuchbarkeit und Auswertung best
 
 Schlüssel: Quelldatenbank + Labornummer 
 
+\definecolor{ori}{rgb}{0.9215686,0.5058824,0.1058824} 
 \setlength{\tabcolsep}{1pt}
 
 | **Datum**           | **Fundort**            | **Kulturkontext**    | **Probe**             | **Referenz**           |
 | -----               | -------                | -------------        | -----                 | --------               |
-| C14AGE              | \color{red}{COUNTRY}   | \color{red}{CULTURE} | \color{red}{MATERIAL} | \color{red}{REFERENCE} |
-| C14STD              | \color{red}{LONGITUDE} | \color{red}{PERIOD}  | \color{red}{SPECIES}  | NOTICE                 |
-| \color{red}{CALAGE} | \color{red}{LATITUDE}  | PHASE                | C13                   |                        |
-| \color{red}{CALSTD} | \color{red}{SITE}      |                      |                       |                        |
+| C14AGE              | \color{ori}{COUNTRY}   | \color{ori}{CULTURE} | \color{ori}{MATERIAL} | \color{ori}{REFERENCE} |
+| C14STD              | \color{ori}{LONGITUDE} | \color{ori}{PERIOD}  | \color{ori}{SPECIES}  | NOTICE                 |
+| \color{ori}{CALAGE} | \color{ori}{LATITUDE}  | PHASE                | C13                   |                        |
+| \color{ori}{CALSTD} | \color{ori}{SITE}      |                      |                       |                        |
 |                     | FEATURE                |                      |                       |                        |
 |                     | LOCUS                  |                      |                       |                        |
 
 ## Datenbereinigung
 
-### Raumdatenbewertung 
+![Bisher implementierte Bereinigungschritte](../images/smartart3.png)
 
-### Thesauri
+## Datenbereinigung -- offene Fragen
+
+VERA-1830
 
 ## 14C-Kalibration
 
