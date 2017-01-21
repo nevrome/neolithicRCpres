@@ -17,12 +17,20 @@ fig_caption: yes
 
 ## *Current situation*
 
+![Prendergast, Grillo et al 2014 - New Dates for Kansyore and Pastoral Neolithic Ceramics in the Eyasi Basin, Tanzania](../images/Prendergast2014_90-91.png)
+
+## *Current situation*
+
 - Bedeutung von Radiokohlenstoffdatierungen für Modellierung der Ausbreitung archäologischer Phänomene
 - Faktoren für den Diskurs:
     - Datenbestand
     - Algorithmus
 
 ![Shennan, Downey *et al.* 2013; Russell, Silva *et al.* 2014; Jordan, Gibbs et al. 2016](../images/literature_selection.png)
+
+## *Current situation*
+
+![Chaput, Gajewski 2015: 3 Fig. 1](../images/Chaput2015_3Fig1.png)
 
 ## *Best practice*: Archives des datations radiocarbone d'Afrique centrale
 
