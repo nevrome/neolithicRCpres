@@ -65,9 +65,9 @@ Zielsetzung von neolithicRC: **"Agregation, Durchsuchbarkeit und Auswertung best
 
 ![Timeline der Entwicklung von neolithicRC](../images/smartart2.png)
 
-- **DIY Freizeit- und Übungsprojekt** 
-- Intensiver Austausch mit den Teams hinter CALPAL und RADON
-- Strukturelle Anbindung an das eScience-Center der Universität Tübingen
+- **DIY Freizeit- und Übungsprojekt** ohne institutionelle Anbindung
+- intensiver Austausch mit den Teams hinter CALPAL und RADON
+- strukturelle Anbindung an das eScience-Center der Universität Tübingen
 - keine erweiterte Fragestellung und kein konkreter Zeitplan
 
 ## Projektkonzept
@@ -75,7 +75,7 @@ Zielsetzung von neolithicRC: **"Agregation, Durchsuchbarkeit und Auswertung best
 ### Entwicklungsumgebung 
 
 - **R + RStudio:** 
-- **shiny + htmlwidgets: **
+- **shiny + htmlwidgets:**
 - **git + github:**
 
 ### Modulstruktur
@@ -90,9 +90,23 @@ Zielsetzung von neolithicRC: **"Agregation, Durchsuchbarkeit und Auswertung best
 - **RADON:**
 - **EUROEVOL:**
 - **aDRAC:**
-- weitere geplant: ...
+- **CONTEXT:**
+- weitere denkbar: IRPAKIK, ...
 
 ### Kerndatenelemente
+
+Schlüssel: Quelldatenbank + Labornummer 
+
+\setlength{\tabcolsep}{1pt}
+
+| **Datum**           | **Fundort**            | **Kulturkontext**    | **Probe**             | **Referenz**           |
+| -----               | -------                | -------------        | -----                 | --------               |
+| C14AGE              | \color{red}{COUNTRY}   | \color{red}{CULTURE} | \color{red}{MATERIAL} | \color{red}{REFERENCE} |
+| C14STD              | \color{red}{LONGITUDE} | \color{red}{PERIOD}  | \color{red}{SPECIES}  | NOTICE                 |
+| \color{red}{CALAGE} | \color{red}{LATITUDE}  | PHASE                | C13                   |                        |
+| \color{red}{CALSTD} | \color{red}{SITE}      |                      |                       |                        |
+|                     | FEATURE                |                      |                       |                        |
+|                     | LOCUS                  |                      |                       |                        |
 
 ## Datenbereinigung
 
