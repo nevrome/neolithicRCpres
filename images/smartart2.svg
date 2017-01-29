@@ -276,9 +276,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1"
-     inkscape:cx="543.98709"
-     inkscape:cy="871.7378"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="394.58625"
+     inkscape:cy="912.62805"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -311,9 +311,16 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
+    <rect
+       y="64.447189"
+       x="85.744896"
+       height="3.5006073"
+       width="20.96311"
+       id="rect4712"
+       style="fill:#23373b;fill-opacity:1;stroke:#23373b;stroke-width:2.33585095;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
     <path
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#eb811b;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#DiamondM);marker-end:url(#marker19704)"
-       d="m 22.61198,28.977284 158.70064,0.284173 c 25.95012,0.04647 25.95016,31.19105 0.32345,31.181834 -22.64415,-0.0081 -1.05833,0 -95.300707,0.234034"
+       d="m 22.61198,28.977284 158.70064,0.284173 c 25.95012,0.04647 25.95016,31.19105 0.32345,31.181834 -22.64415,-0.0081 -18.64466,0 -112.887042,0.234034"
        id="path4594"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cssc" />
@@ -486,21 +493,21 @@
     <image
        sodipodi:absref="/home/clemens/Rstats/neolithicRCpres/images/logos/uni_tuebingen.png"
        xlink:href="logos/uni_tuebingen.png"
-       width="18.420366"
-       height="18.420366"
-       preserveAspectRatio="none"
-       id="image5414"
+       y="37.346191"
        x="178.48514"
-       y="37.346191" />
+       id="image5414"
+       preserveAspectRatio="none"
+       height="18.420366"
+       width="18.420366" />
     <image
        sodipodi:absref="/home/clemens/Rstats/neolithicRCpres/images/logos/Octocat.png"
        xlink:href="logos/Octocat.png"
-       width="21.903389"
-       height="18.207193"
-       preserveAspectRatio="none"
-       id="image5425"
+       y="31.363585"
        x="62.486752"
-       y="31.363585" />
+       id="image5425"
+       preserveAspectRatio="none"
+       height="18.207193"
+       width="21.903389" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:6.61458302px;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -596,7 +603,7 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332px"
          id="tspan5978">eScience-Center </tspan></text>
     <rect
-       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.97706419"
+       style="fill:#23373b;fill-opacity:1;stroke:#23373b;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;fill-rule:nonzero"
        id="rect5980"
        width="14.022917"
        height="3.8364582"
@@ -620,7 +627,7 @@
        d="m 128.3832,33.576086 21.18758,0.06931"
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.30000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker6048)" />
     <rect
-       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.97706419"
+       style="fill:#23373b;fill-opacity:1;stroke:#23373b;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect16508"
        width="14.022917"
        height="3.8364582"
@@ -639,38 +646,38 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke-width:0.26458332px">RADON</tspan></text>
     <rect
        y="64.279266"
-       x="115.78999"
+       x="119.71886"
        height="3.8364582"
        width="14.022917"
        id="rect16516"
-       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.97706419" />
+       style="fill:#23373b;fill-opacity:1;stroke:#23373b;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
     <text
        id="text16520"
        y="67.481651"
-       x="116.79149"
+       x="120.72035"
        style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:6.61458302px;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"><tspan
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke-width:0.26458332px"
          y="67.481651"
-         x="116.79149"
+         x="120.72035"
          id="tspan16518"
          sodipodi:role="line">aDRAC</tspan></text>
     <rect
-       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:2.33585095;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.97706419"
+       style="fill:#23373b;fill-opacity:1;stroke:#23373b;stroke-width:2.33585095;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect16522"
        width="20.96311"
        height="3.5006073"
-       x="133.76677"
+       x="137.69563"
        y="64.447189" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:6.61458302px;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="134.39966"
+       x="138.32852"
        y="67.481659"
        id="text16506"><tspan
          sodipodi:role="line"
          id="tspan16504"
-         x="134.39966"
+         x="138.32852"
          y="67.481659"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke-width:0.26458332px">EUROEVOL</tspan></text>
     <text
@@ -684,5 +691,16 @@
          x="149.65982"
          id="tspan16858"
          sodipodi:role="line">Modularisierung</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:6.61458302px;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="87.730843"
+       y="67.481651"
+       id="text4710"><tspan
+         sodipodi:role="line"
+         id="tspan4708"
+         x="87.730843"
+         y="67.481651"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke-width:0.26458332px">CONTEXT</tspan></text>
   </g>
 </svg>
