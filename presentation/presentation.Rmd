@@ -81,11 +81,17 @@ Zielsetzung von neolithicRC: **"Agregation, Durchsuchbarkeit und Auswertung best
 
 ### Entwicklungsumgebung 
 
-- **R + RStudio:** 
-- **shiny + htmlwidgets:**
-- **git + github:**
+- **R + RStudio:** Einfache Programmiersprache mit riesigem Funktionsumfang in einer optimierten IDE
+- **shiny + htmlwidgets:** WebApp-Framework und R-JavaScript Interfaces zur interaktiven Datenvisualisierung
+- **git + github:** Versionskontrollsoftware und Cloud-Plattform zur OpenSource-Softwareentwicklung 
 
 ### Modulstruktur
+
+Aufgliederung von Datenverarbeitungs- und Visualisierungsschritten um einen zentralen Hub
+
+- Klare Trennung einzelner Arbeitsschritte (Import, Verarbeitung, WebApp)
+- Herabsetzen der Einstiegsschwelle für Mitentwickler und Nachnutzer
+- Sprach- und Systemunabhängigkeit
 
 ## Modulaufbau
 
