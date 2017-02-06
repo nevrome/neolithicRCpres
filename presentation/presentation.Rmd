@@ -132,23 +132,25 @@ VERA-1830
 ## 14C-Kalibration
 
 ```{r eval = FALSE, size = "tiny"}
-interval683 <- datestable[-outofrange, ] %>%
-  # calculate density vector
-  BchronCalibrate(
-    ages = use_series(., C14AGE),
-    ageSds = use_series(., C14STD),
-    calCurves = rep("intcal13", nrow(.))
-  ) %>% set_names(sprintf("date%i", 1:length(.))) %>%
-  # draw 1000 samples from density vector
-  sapply(
-    ., function(x){sample(x$ageGrid, size = 1000, 
-                          replace = TRUE, prob = x$densities)}
+# 2sigma range probability border
+threshold <- (1-0.9545)/2
+
+interval95 <- datestable[-outofrange, ] %$% 
+  # date calibration with comprehensive output 
+  Bchron::BchronCalibrate(
+    ages = C14AGE, ageSds = C14STD,
+    calCurves = rep("intcal13", nrow(.)), eps = 1e-06
   ) %>% 
-  # determine upper and lower border of 68% interval of 
-  # density distribution
-  apply(
-    ., 2, quantile, prob = c(afaktor, 1-afaktor)
-  ) %>% t %>% as.data.frame
+  # extract border ages of the 2sigma range   
+  plyr::ldply(., function(x) {
+      x$densities            %>% cumsum -> a      # cumulated density
+      which(a <= threshold)  %>% max    -> my_min # lower border 
+      which(a > 1-threshold) %>% min    -> my_max # upper border 
+      x$ageGrid[c(my_min, my_max)]
+  }) 
+
+# calculate date as mean of lower and upper border
+amean <- apply(interval95[, 2:3], 1, function(x){round(mean(x))})
 ```
 
 ## WebApp 
