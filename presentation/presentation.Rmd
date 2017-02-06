@@ -132,6 +132,7 @@ Schlüssel: Quelldatenbank + Labornummer
 ### VERA-1830, Herxheim, Bandkeramik, 7110 $\pm$ 113 calBP 
 
 \definecolor{ori}{rgb}{0.9215686,0.5058824,0.1058824} 
+\setlength{\tabcolsep}{1pt}
 
 +--------------------------+----------------------------+-------------------+----------------------------+
 |                          | **RADON**                  | **EUROEVOL**      | **CALPAL**                 |
@@ -159,7 +160,7 @@ Schlüssel: Quelldatenbank + Labornummer
 ## 14C-Kalibration
 
 ```{r eval = FALSE, size = "tiny"}
-# 2sigma range probability border
+# 2sigma range probability threshold
 threshold <- (1-0.9545)/2
 
 interval95 <- datestable[-outofrange, ] %$% 
@@ -192,10 +193,13 @@ http://neolithicrc.de
 
 ## Danke
 
-|**Clemens Schmid**|**Dirk Seidensticker**|
-|------------------------------------|------------------------------------|
-|Institut für Ur- und Frühgeschichte,||
-|CAU Kiel||
-|clemens@nevrome.de||
+\setlength{\tabcolsep}{1pt}
+
+|**Clemens Schmid**                   | **Dirk Seidensticker**              |
+| -                                   | -                                   |
+|Institut für Ur-                     | eScience-Center,                    |
+|und Frühgeschichte,                  |                                     |
+|Universität Kiel                     | Universität Tübingen                |
+|clemens@nevrome.de                   | dirk.seidensticker@uni-tuebingen.de |         
 
 ## Demo -Backup
