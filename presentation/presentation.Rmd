@@ -87,9 +87,9 @@ Zielsetzung von neolithicRC: **"Agregation, Durchsuchbarkeit und Auswertung best
 
 ### Modulstruktur
 
-Aufgliederung von Datenverarbeitungs- und Visualisierungsschritten um einen zentralen Hub
+Klare Trennung einzelner Datenverarbeitungs- und Visualisierungsschritte (Import, Bereinigung, WebApp) um einen zentralen Hub (Datenbank)
 
-- Klare Trennung einzelner Arbeitsschritte (Import, Verarbeitung, WebApp)
+- Vereinfachen von Weiterentwicklung und Bugfixing
 - Herabsetzen der Einstiegsschwelle für Mitentwickler und Nachnutzer
 - Sprach- und Systemunabhängigkeit
 
