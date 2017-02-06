@@ -85,6 +85,8 @@ Zielsetzung von neolithicRC: **"Agregation, Durchsuchbarkeit und Auswertung best
 - **shiny + htmlwidgets:** WebApp-Framework und R-JavaScript Interfaces zur interaktiven Datenvisualisierung
 - **git + github:** Versionskontrollsoftware und Cloud-Plattform zur OpenSource-Softwareentwicklung 
 
+https://github.com/nevrome/neolithicR
+
 ### Modulstruktur
 
 Klare Trennung einzelner Datenverarbeitungs- und Visualisierungsschritte (Import, Bereinigung, WebApp) um einen zentralen Hub (Datenbank)
@@ -95,7 +97,7 @@ Klare Trennung einzelner Datenverarbeitungs- und Visualisierungsschritte (Import
 
 ## Modulaufbau
 
-![Modulaufbau neolithicRC](../images/smartart1.png)
+![Modulaufbau von neolithicRC](../images/smartart1.png)
 
 ## Quellendatenbanken und Interfaces
 
@@ -127,7 +129,32 @@ Schlüssel: Quelldatenbank + Labornummer
 
 ## Datenbereinigung -- offene Fragen
 
-VERA-1830
+### VERA-1830, Herxheim, Bandkeramik, 7110 $\pm$ 113 calBP 
+
+\definecolor{ori}{rgb}{0.9215686,0.5058824,0.1058824} 
+
++--------------------------+----------------------------+-------------------+----------------------------+
+|                          | **RADON**                  | **EUROEVOL**      | **CALPAL**                 |
++==========================+============================+===================+============================+
+| **MATERIAL**             | collagen, bone             | human bone        | bone                       |
++--------------------------+----------------------------+-------------------+----------------------------+
+| **\color{ori}{CULTURE}** | \color{ori}{Linienband-} \ | *\color{ori}{NA}* | \color{ori}{Linienband-} \ |
+|                          | \color{ori}{keramik}       |                   | \color{ori}{keramik}       |
++--------------------------+----------------------------+-------------------+----------------------------+
+| **\color{ori}{PERIOD}**  | \color{ori}{n/a}           | \color{ori}{EN}   | \color{ori}{Neolithic}     |
++--------------------------+----------------------------+-------------------+----------------------------+
+| **LATITUDE**             | 49.140                     | 49.140            | 49.146                     |
++--------------------------+----------------------------+-------------------+----------------------------+
+| **LONGITUDE**            | 8.210                      | 8.210             | 8.214                      |
++--------------------------+----------------------------+-------------------+----------------------------+
+| **REFERENCE**            | Whittle et al.\            | *NA*              | Wild 2004                  |
+|                          | 2011 p. 328                |                   |                            |
++--------------------------+----------------------------+-------------------+----------------------------+
+
+- kulturhistorische Zuordnung scheitert ohne einen absoluten Thesaurus 
+- Datenüberschneidungen mit deutlichen Abweichungen zwischen den Quelldatenbanken
+    - Bedarf nach Zusammenführung?
+    - Zusammenführung nach welcher Prioritätsabfolge?
 
 ## 14C-Kalibration
 
@@ -154,6 +181,12 @@ amean <- apply(interval95[, 2:3], 1, function(x){round(mean(x))})
 ```
 
 ## WebApp 
+
+https://forschungsdatenarchiv.escience.uni-tuebingen.de/cSchmid/neolithicRC
+
+http://neolithicrc.de
+
+
 
 # Demo
 
