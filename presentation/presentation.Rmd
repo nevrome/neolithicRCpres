@@ -200,40 +200,40 @@ http://neolithicrc.de
 
 ## Demo-Backup
 
-\hspace*{-0.8cm}\includegraphics[width=353pt]{/home/clemens/Rstats/neolithicRCpres/images/demo_screenshots/01.png}
+\hspace*{-0.8cm}\includegraphics[width=353pt]{../images/demo_screenshots/01.png}
 
 ## Demo-Backup
 
-\hspace*{-0.8cm}\includegraphics[width=353pt]{/home/clemens/Rstats/neolithicRCpres/images/demo_screenshots/02a.png}
+\hspace*{-0.8cm}\includegraphics[width=353pt]{../images/demo_screenshots/02a.png}
 
 ## Demo-Backup
 
-\hspace*{-0.8cm}\includegraphics[width=353pt]{/home/clemens/Rstats/neolithicRCpres/images/demo_screenshots/02b.png}
+\hspace*{-0.8cm}\includegraphics[width=353pt]{../images/demo_screenshots/02b.png}
 
 ## Demo-Backup
 
-\hspace*{-0.8cm}\includegraphics[width=353pt]{/home/clemens/Rstats/neolithicRCpres/images/demo_screenshots/03.png}
+\hspace*{-0.8cm}\includegraphics[width=353pt]{../images/demo_screenshots/03.png}
 
 ## Demo-Backup
 
-\hspace*{-0.8cm}\includegraphics[width=353pt]{/home/clemens/Rstats/neolithicRCpres/images/demo_screenshots/04.png}
+\hspace*{-0.8cm}\includegraphics[width=353pt]{../images/demo_screenshots/04.png}
 
 ## Demo-Backup
 
-\hspace*{-0.8cm}\includegraphics[width=353pt]{/home/clemens/Rstats/neolithicRCpres/images/demo_screenshots/05.png}
+\hspace*{-0.8cm}\includegraphics[width=353pt]{../images/demo_screenshots/05.png}
 
 ## Demo-Backup
 
-\hspace*{-0.8cm}\includegraphics[width=353pt]{/home/clemens/Rstats/neolithicRCpres/images/demo_screenshots/06.png}
+\hspace*{-0.8cm}\includegraphics[width=353pt]{../images/demo_screenshots/06.png}
 
 ## Demo-Backup
 
-\hspace*{-0.8cm}\includegraphics[width=353pt]{/home/clemens/Rstats/neolithicRCpres/images/demo_screenshots/07.png}
+\hspace*{-0.8cm}\includegraphics[width=353pt]{../images/demo_screenshots/07.png}
 
 ## Demo-Backup
 
-\hspace*{-0.8cm}\includegraphics[width=353pt]{/home/clemens/Rstats/neolithicRCpres/images/demo_screenshots/08.png}
+\hspace*{-0.8cm}\includegraphics[width=353pt]{../images/demo_screenshots/08.png}
 
 ## Demo-Backup
 
-\hspace*{-0.8cm}\includegraphics[width=353pt]{/home/clemens/Rstats/neolithicRCpres/images/demo_screenshots/09.png}
+\hspace*{-0.8cm}\includegraphics[width=353pt]{../images/demo_screenshots/09.png}
