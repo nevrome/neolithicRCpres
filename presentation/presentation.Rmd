@@ -150,7 +150,7 @@ Schlüssel: Quelldatenbank + Labornummer
 |                          | 2011 p. 328                |                   |                            |
 +--------------------------+----------------------------+-------------------+----------------------------+
 
-- kulturhistorische Zuordnung scheitert ohne einen absoluten Thesaurus 
+- kulturhistorische Zuordnung scheitert ohne einen hierarchischen Thesaurus 
 - Datenüberschneidungen mit deutlichen Abweichungen zwischen den Quelldatenbanken
     - Bedarf nach Zusammenführung?
     - Zusammenführung nach welcher Prioritätsabfolge?
