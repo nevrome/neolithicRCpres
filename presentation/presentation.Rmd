@@ -40,7 +40,7 @@ fig_caption: yes
 
 ## *Best practice*: Archives des datations radiocarbone d'Afrique centrale
 
-![Beschriebung des Datensatzes](../images/aDRAC_4_2017-01-20_13-22-19.png)
+![Beschreibung des Datensatzes](../images/aDRAC_4_2017-01-20_13-22-19.png)
 
 ## *Best practice*: Archives des datations radiocarbone d'Afrique centrale
 
