@@ -181,9 +181,9 @@ amean <- apply(interval95[, 2:3], 1, function(x){round(mean(x))})
 
 ## WebApp 
 
-https://forschungsdatenarchiv.escience.uni-tuebingen.de/cSchmid/neolithicRC
+\fontsize{7}{12}https://forschungsdatenarchiv.escience.uni-tuebingen.de/cSchmid/neolithicRC
 
-http://neolithicrc.de
+\fontsize{25}{12}http://neolithicrc.de
 
 # Demo
 
