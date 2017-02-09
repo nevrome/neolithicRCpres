@@ -11,11 +11,11 @@ fig_caption: yes
 
 # OpenAccess - OpenData - OpenScience
 
-## *Radiocarbon datings*
+## Radiocarbon datings
 
 ![Prendergast, Grillo *et al.* 2014 - New Dates for Kansyore and Pastoral Neolithic Ceramics in the Eyasi Basin, Tanzania](../images/Prendergast2014_90-91.png)
 
-## *Radiocarbon datings*
+## Radiocarbon datings
 
 - Bedeutung von Radiokohlenstoffdatierungen für Modellierung der Ausbreitung archäologischer Phänomene
 - Faktoren für den Diskurs:
@@ -24,29 +24,25 @@ fig_caption: yes
 
 ![Shennan, Downey *et al.* 2013; Russell, Silva *et al.* 2014; Jordan, Gibbs *et al.* 2016](../images/literature_selection.png)
 
-## *Radiocarbon datings*
+## Radiocarbon datings
 
 ![Chaput, Gajewski 2015: 3 Fig. 1](../images/Chaput2015_3Fig1.png)
 
-## *Best practice*: Archives des datations radiocarbone d'Afrique centrale
+## Best practice: Archives des datations radiocarbone d'Afrique centrale
 
 * OpenData-Veröffentlichung von publizierten \textsuperscript{14}C-Datierungen aus Zentralafrika (DOI 10.5281/zenodo.61113)
 
 ![GitHub-Archiv](../images/aDRAC_1_2017-01-20_13-20-55.png)
 
-## *Best practice*: Archives des datations radiocarbone d'Afrique centrale
+## Best practice: Archives des datations radiocarbone d'Afrique centrale
 
 ![Datensatz im CSV-Format](../images/aDRAC_2_2017-01-20_13-21-34.png)
 
-## *Best practice*: Archives des datations radiocarbone d'Afrique centrale
+## Best practice: Archives des datations radiocarbone d'Afrique centrale
 
 ![Beschreibung des Datensatzes](../images/aDRAC_4_2017-01-20_13-22-19.png)
 
-## *Best practice*: Archives des datations radiocarbone d'Afrique centrale
-
-![Sammlung nützlicher Skripte: Python-Skript zur Konvertierung der Daten](../images/aDRAC_5_2017-01-20_13-23-36.png)
-
-## *Best practice*: Archives des datations radiocarbone d'Afrique centrale
+## Best practice: Archives des datations radiocarbone d'Afrique centrale
 
 ![Veröffentlichung der Daten via Zenodo](../images/aDRAC_6_2017-02-07_13-36-49.png)
 
@@ -56,12 +52,12 @@ fig_caption: yes
 ![https://xkcd.com/927/ -- Randall Munroe](http://imgs.xkcd.com/comics/standards.png "xkcd: Standards")
 -->
  
-## *Parsing the Past*
+## Parsing the Past
 
 
-> “Building a database, per se, will be a thing of the past. Those databases will be dynamically generated based on the questions you’re interested in, and the machine will do the heavy lifting.”
+> **“Building a database, per se, will be a thing of the past. Those databases will be dynamically generated based on the questions you’re interested in, and the machine will do the heavy lifting.”**
 >
-> -- Shanan Peters (Univ. Wisconsin-Madison; Callaway 2015: 115)
+> -- Shanan Peters (Univ. Wisconsin-Madison; Callaway 2015 - Computers read the fossil record. Nature 523: 115)
 
 # neolithicRC
 
@@ -197,10 +193,11 @@ amean <- apply(interval95[, 2:3], 1, function(x){round(mean(x))})
 
 |**Clemens Schmid**                   | **Dirk Seidensticker**              |
 | -                                   | -                                   |
-|Institut für Ur-                     | eScience-Center,                    |
-|und Frühgeschichte,                  |                                     |
+|Institut für Ur-                     | eScience-Center                     |
+|und Frühgeschichte,                  | Universitätsbibliothek              |
 |Universität Kiel                     | Universität Tübingen                |
-|clemens@nevrome.de                   | dirk.seidensticker@uni-tuebingen.de |         
+|clemens@nevrome.de                   | dirk.seidensticker@                 |         
+|                                     | uni-tuebingen.de                    |
 
 ## Demo-Backup
 
