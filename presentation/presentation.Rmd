@@ -189,6 +189,8 @@ amean <- apply(interval95[, 2:3], 1, function(x){round(mean(x))})
 
 ## Danke
 
+\hspace*{-0.8cm}\includegraphics[width=353pt]{../images/logos/ISAAK.png}
+
 \setlength{\tabcolsep}{1pt}
 
 |**Clemens Schmid**                   | **Dirk Seidensticker**              |
