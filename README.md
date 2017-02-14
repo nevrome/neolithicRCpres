@@ -1,4 +1,4 @@
-<img align="right" src="images/urkunde.jpg" width = 200px>
+<img align="right" src="images/urkunde.jpg" width = 300px>
 
 # neolithicRCpres
 
