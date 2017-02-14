@@ -36,3 +36,4 @@ vignettes/*.pdf
 # Rendered Markdown documents
 #*.pdf
 *.docx
+*.html
