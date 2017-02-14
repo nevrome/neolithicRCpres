@@ -34,5 +34,5 @@ vignettes/*.pdf
 .Rproj.user
 
 # Rendered Markdown documents
-*.pdf
+#*.pdf
 *.docx
